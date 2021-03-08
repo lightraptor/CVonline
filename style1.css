@@ -1,0 +1,79 @@
+body{
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+}
+.navigation-wrapper
+{
+    height: 190px;
+    background-color: rgb(13, 40, 75);
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:60px 100px;
+}
+.navigation-wrapper >.left-column
+{
+    display: flex;
+    align-items: center;
+    font-size: 85%;
+}
+i 
+{
+    margin-right: 20px;
+    font-size: 2em;
+}
+.navigation-wrapper > .left-column > .contact-hours-wrapper 
+{
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+.navigation-wrapper > .right-column > .address-wrapper > .second-column 
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.navigation-wrapper > .right-column > .address-wrapper
+{
+    display: flex;
+    align-items: center;
+    font-size: 85%;
+}
+.navigation-wrapper > .center-column >.logo-banners > .link-wrapper > .nav-link a 
+{
+    font-family: 'Ruda', sans-serif;
+}
+.navigation-wrapper > .center-column > .logo-banners > .nav-logo img 
+{
+    width:160px;
+    height:100%;
+}
+.link-wrapper
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-logo
+{
+    display: flex;
+    justify-content: center;
+}
+.link-wrapper > .nav-link a 
+{
+    font-size: 85%;
+    text-decoration:  none;
+    color:white;
+    transition: 0.5s;
+}
+.link-wrapper > .nav-link a:hover
+{
+    color:#cec135;
+    letter-spacing: 2px;
+}
+.link-wrapper > .nav-link 
+{
+    width:145px;
+    text-align: center;
+}
